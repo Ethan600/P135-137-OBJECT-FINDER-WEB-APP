@@ -1,0 +1,44 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    width: 100%;
+    border: 10px double darkblue;
+    font-family: 'Blaka', cursive;
+    font-size: 30px;
+    margin: 0px;
+}
+
+p{
+    font-family: 'Passion One', cursive;
+    font-size: 15px;
+    font-weight: lighter;
+    color: darkslategrey;
+}
+
+canvas{
+    animation-name: gradient;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    margin-top: 175px;
+    padding-bottom: 25px;
+
+ }
+ 
+ @keyframes gradient{
+     from {box-shadow: 10px 10px 15px greenyellow;}
+     to {box-shadow: 10px, 10px, 15px, fuchsia}
+ }
+
+ h5{
+    font-family: 'Lobster', cursive;
+    font-size: large;
+    color: darkmagenta;
+    font-weight: bold;
+ }
+
+ input{
+     width: 350px;
+ }
